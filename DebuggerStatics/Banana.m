@@ -18,6 +18,7 @@ static Banana *sharedInstance = nil;
     {
         sharedInstance = [Banana new];
     }
+    NSLog(@"Got Shared Instance of Banana %@", sharedInstance);
     return sharedInstance;
 }
 

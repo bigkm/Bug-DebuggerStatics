@@ -17,6 +17,7 @@ static Pineapple *sharedInstance = nil;
     {
         sharedInstance = [Pineapple new];
     }
+    NSLog(@"Got Shared Instance of Pineapple %@", sharedInstance);
     return sharedInstance;
 }
 
