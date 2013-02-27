@@ -7,15 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Banana.h"
+#import "Pineapple.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Banana *banana = [Banana sharedInstance];
+        Pineapple *pineapple = [Pineapple sharedInstance];
         
+        NSLog(@"banana = %@", banana);
+        NSLog(@"pineapple = %@", pineapple);
     }
     return 0;
 }
