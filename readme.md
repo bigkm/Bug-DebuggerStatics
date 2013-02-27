@@ -1,4 +1,4 @@
-Xcode Debugger bug
+Xcode debugging in UI gets wrong static vars
 =======
 
 Summary
