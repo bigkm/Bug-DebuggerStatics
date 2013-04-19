@@ -1,6 +1,8 @@
 Xcode debugging in UI gets wrong static vars
 =======
 
+*[rdar://13301729](rdar://13301729)*
+
 Summary
 -------
 Selecting "print description" from either the debugger table, or hovering over the variable prints wrong variable.
